@@ -17,11 +17,10 @@
           url: "addUser.php",
           data: "fName=" + fName + "&lName=" + lName + "&email=" + email + "&password=" + password,
           success: (html) => {
-            console.log('aaaaaaaaaaaaaaaaaaaa', html);
-            if (html === true) {
+            if (html == 'true') {
               $("#add_err2").html('<div class="alert alert-success"><strong>Account</strong> Processed. \ \ </div>')
-              widow.location.href = "inndex.php";
-            } else if (html === false) {
+              window.location.href = "index.php";
+            } else if (html == 'false') {
               $("#add_err2").html('<div class="alert alert-danger"><strong>Email Address</strong> already exists. \ \ </div>')
             } else if (html === 'fName') {
               $("#add_err2").html('<div class="alert alert-warning"><strong>First name</strong> is required. \ \ </div>')
@@ -92,7 +91,7 @@
                         <div class="form-group col col-lg-3"></div>
                         <div class="form-group col col-lg-2"><label style="font-size: 20px">Password</label></div>
                         <div class="form-group col-lg-4">
-                            <input id="password" name="password" maxlength="25" type="text" class="form-control" rows="6"></input>
+                            <input id="password" name="password" maxlength="25" type="password" class="form-control" rows="6"></input>
                         </div>
                     </div>
                     <div class="row">
