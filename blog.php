@@ -14,39 +14,45 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Company
+                    <h2 class="intro-text text-center">The Coffee Shop
                         <strong>blog</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2>Post Title
+                    <h2>COCONUT OIL COFFEE
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 13, 2020</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>Start your morning off with this great recipe for hot coffee with coconut oil and butter.</p>
+                    <button type='button' class='btn btn-info btn-lg' data-toggle="modal" data-target="#myModal1">
+                      Read More
+                    </button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2>Post Title
+                    <h2>IRISH COFFEE
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 13, 2020</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>Take the edge off with a Fresh hot cup of coffee made with Irish whiskey and Irish Cream.</p>
+                    <button type='button' class='btn btn-info btn-lg' data-toggle="modal" data-target="#myModal2">
+                      Read More
+                    </button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
-                    <h2>Post Title
+                    <h2>FROZEN CARAMEL LATTE
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 13, 2020</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>Sweetened with caramel sauce and topped with whipped cream, this will make you happy any time of day.</p>
+                    <button type='button' class='btn btn-info btn-lg' data-toggle="modal" data-target="#myModal3">
+                      Read More
+                    </button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
@@ -62,10 +68,64 @@
 
     </div>
 
-    <?php require_once 'footer.php';?>
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 style="display: inline-block" class="modal-title">COCONUT OIL COFFEE</h5>
+            <button style="display: inline-block" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Start your morning off with this great recipe for hot coffee with coconut oil and butter.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 style="display: inline-block" class="modal-title">IRISH COFFEE</h5>
+            <button style="display: inline-block" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Take the edge off with a Fresh hot cup of coffee made with Irish whiskey and Irish Cream.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 style="display: inline-block" class="modal-title">FROZEN CARAMEL LATTE</h5>
+            <button style="display: inline-block" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Sweetened with caramel sauce and topped with whipped cream, this will make you happy any time of day.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <?php require_once 'footer.php';?>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

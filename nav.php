@@ -22,8 +22,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li id="home-nav" <?php if ($uri === '/coffee-shop/index.php') echo "style='background:white;font-weight:600'"?>>
-                    <a <?php if ($uri === '/coffee-shop/index.php') echo "style='color:#61230a'"?> href="index.php">Home</a>
+                <li id="home-nav" <?php if ($uri === '/coffee-shop/index.php'  || $uri === '/coffee-shop/') echo "style='background:white;font-weight:600'"?>>
+                    <a <?php if ($uri === '/coffee-shop/index.php' || $uri === '/coffee-shop/') echo "style='color:#61230a'"?> href="index.php">Home</a>
                 </li>
                 <li id="about-nav" <?php if ($uri === '/coffee-shop/about.php') echo "style='background:white;font-weight:600'"?>>
                     <a <?php if ($uri === '/coffee-shop/about.php') echo "style='color:#61230a'"?> href="about.php">About</a>
