@@ -28,9 +28,6 @@
                 <li id="about-nav" <?php if ($uri === '/coffee-shop/about.php') echo "style='background:white;font-weight:600'"?>>
                     <a <?php if ($uri === '/coffee-shop/about.php') echo "style='color:#61230a'"?> href="about.php">About</a>
                 </li>
-                <li id="menu-nav" <?php if ($uri === '/coffee-shop/menu.php') echo "style='background:white;font-weight:600'"?>>
-                    <a <?php if ($uri === '/coffee-shop/menu.php') echo "style='color:#61230a'"?> href="menu.php">Menu</a>
-                </li>
                 <li id="blog-nav" <?php if ($uri === '/coffee-shop/blog.php') echo "style='background:white;font-weight:600'"?>>
                     <a <?php if ($uri === '/coffee-shop/blog.php') echo "style='color:#61230a'"?> href="blog.php">Blog</a>
                 </li>
