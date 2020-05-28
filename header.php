@@ -6,6 +6,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- favicon created for this project -->
+    <link rel="icon" href="./img/favicon.ico" type="image/gif" sizes="16x16">
+
     <title>
       <?php
         $uri = $_SERVER['REQUEST_URI'];
@@ -48,5 +51,5 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    
+
 </head>
