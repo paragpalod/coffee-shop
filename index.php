@@ -8,6 +8,22 @@
     <div class="brand">The Coffee Shop</div>
     <div class="address-bar">3481 Balewadi Highstreet | Balewadi, 411033 | +91 1234567890</div>
 
+    <?php
+
+  	if (isset($_GET["logout"])) {
+
+  		if ($_GET["logout"] == "true") { ?>
+
+  			<div class="alert alert-success">
+  			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  			<strong>You have been logged out of the system.</strong>
+  			</div>
+
+  	<?php
+  		}
+  	}
+  	?>
+    
     <div class="container">
 
         <div class="row">

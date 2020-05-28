@@ -1,3 +1,12 @@
+<?php
+  session_start();
+
+  if(isset($_SESSION['login'])) {
+
+    $fName = $_SESSION['fName'];
+    $lName = $_SESSION['lName'];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php require_once 'header.php';?>
@@ -12,6 +21,9 @@
 
         <div class="row">
             <div class="box">
+                <h2 class="text-center">
+                  Welcome <?php echo "$fName $lName" ?> | <a href="logout.php">Logout</a>
+                </h2>
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">The Coffee Shop
@@ -133,3 +145,8 @@
 </body>
 
 </html>
+<?php
+  } else {
+    header("location:login.php");
+  }
+?>

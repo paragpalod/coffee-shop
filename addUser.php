@@ -44,8 +44,8 @@
   			if ($insert_row) {
 
   				$_SESSION['login'] = $mysqli->insert_id;
-  				$_SESSION['fname'] = $fname;
-  				$_SESSION['lname'] = $lname;
+  				$_SESSION['fName'] = $fname;
+  				$_SESSION['lName'] = $lname;
 
   				echo 'true';
 
